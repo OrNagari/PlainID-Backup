@@ -1,0 +1,10 @@
+{
+  "data": {
+    "applicationId": "documents",
+    "displayName": "Documents",
+    "colorIndication": "#0086C0",
+    "assetTemplateIds": [
+      "documents"
+    ]
+  }
+}

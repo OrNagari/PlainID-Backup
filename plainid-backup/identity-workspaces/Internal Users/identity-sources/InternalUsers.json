@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "sourceId": "sAMAccount",
+      "displayName": "sAMAccount",
+      "sourceType": "EXTERNAL_INPUT",
+      "sourceMetaData": {
+        "paaGroupId": "or-paa_Global",
+        "viewName": "users_samaccount"
+      }
+    },
+    {
+      "sourceId": "c56b6905-579b-4ee3-81ca-6bd3ebf4e1f1",
+      "displayName": "Users_bank",
+      "sourceType": "EXTERNAL_INPUT",
+      "sourceMetaData": {
+        "paaGroupId": "or-paa_Global",
+        "viewName": "demo_users_bank"
+      }
+    },
+    {
+      "sourceId": "Lower_user_id",
+      "displayName": "Lower_user_id",
+      "sourceType": "EXTERNAL_INPUT",
+      "sourceMetaData": {
+        "paaGroupId": "or-paa_Global",
+        "viewName": "v_lowercase_user"
+      }
+    },
+    {
+      "sourceId": "user_bank_details",
+      "displayName": "user_bank_details",
+      "sourceType": "EXTERNAL_INPUT",
+      "sourceMetaData": {
+        "paaGroupId": "or-paa_Global",
+        "viewName": "demo_user_bank_details"
+      }
+    }
+  ]
+}

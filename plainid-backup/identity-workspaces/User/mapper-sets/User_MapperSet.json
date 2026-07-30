@@ -1,0 +1,29 @@
+{
+  "mapperSetId": "User_MapperSet",
+  "displayName": "User_MapperSet",
+  "linkedSources": [
+    {
+      "sourceId": "vw_user_rdn_groups",
+      "sourceUsedAs": "MAIN",
+      "additionalProps": {
+        "isValidateUser": false,
+        "cacheDuration": 0
+      },
+      "mappers": [
+        {
+          "type": "IDENTITY_ATTRIBUTES",
+          "mappings": [
+            {
+              "origin": "memberofRDN",
+              "target": "memberofRDN"
+            },
+            {
+              "origin": "uid",
+              "target": "uid"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "templateId": "User",
+  "attributes": [
+    {
+      "attributeId": "uid",
+      "displayName": "User ID",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "memberofRDN",
+      "displayName": "memberofRDN",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    }
+  ]
+}

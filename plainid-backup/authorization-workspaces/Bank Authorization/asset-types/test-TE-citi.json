@@ -1,0 +1,47 @@
+{
+  "templateId": "test-TE-citi",
+  "displayName": "test-TE-citi",
+  "source": "EXTERNAL",
+  "isAttributeSentInRequest": true,
+  "isUsedForFiltering": false,
+  "paaGroupId": "or-paa_Global",
+  "viewName": "demo_users_bank",
+  "attributes": [
+    {
+      "attributeId": "LDAP-Group",
+      "displayName": "LDAP Group",
+      "type": "STRING",
+      "sourceAttribute": "role",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "LDAP Group",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "User",
+      "displayName": "User",
+      "type": "STRING",
+      "sourceAttribute": "personal_id",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "User",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "path",
+      "displayName": "Asset ID",
+      "type": "STRING",
+      "sourceAttribute": "user_id",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "path",
+      "isMultiValue": false,
+      "isCalculated": false
+    }
+  ],
+  "actions": [
+    {
+      "actionId": "Accesss",
+      "value": "Accesss"
+    }
+  ]
+}

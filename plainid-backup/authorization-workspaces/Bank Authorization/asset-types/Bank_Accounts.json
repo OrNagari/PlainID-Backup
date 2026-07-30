@@ -1,0 +1,133 @@
+{
+  "templateId": "Bank_Accounts",
+  "displayName": "Bank_Accounts",
+  "source": "EXTERNAL",
+  "isAttributeSentInRequest": false,
+  "isUsedForFiltering": true,
+  "paaGroupId": "or-paa_Global",
+  "viewName": "demo_accounts",
+  "attributes": [
+    {
+      "attributeId": "Account_type",
+      "displayName": "Account_type",
+      "type": "STRING",
+      "sourceAttribute": "account_type",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "Account_type",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "Balance",
+      "displayName": "Balance",
+      "type": "NUMERIC",
+      "sourceAttribute": "balance",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "Balance",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "Region",
+      "displayName": "Region",
+      "type": "STRING",
+      "sourceAttribute": "region",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "Region",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "Status",
+      "displayName": "Status",
+      "type": "STRING",
+      "sourceAttribute": "status",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "Status",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "has_value",
+      "displayName": "has_value",
+      "type": "STRING",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "has_value",
+      "isMultiValue": false,
+      "calculationFunction": "HASVALUE({{or2}},EMPTY)",
+      "isCalculated": true
+    },
+    {
+      "attributeId": "or2",
+      "displayName": "or2",
+      "type": "STRING",
+      "sourceAttribute": "status",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "or2",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "or3",
+      "displayName": "or3",
+      "type": "NUMERIC",
+      "sourceAttribute": "balance",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "or3",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "or4",
+      "displayName": "or4",
+      "type": "NUMERIC",
+      "sourceAttribute": "balance",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "or4",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "owner-id",
+      "displayName": "owner id",
+      "type": "STRING",
+      "sourceAttribute": "owner_id",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "owner id",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "path",
+      "displayName": "Asset ID",
+      "type": "STRING",
+      "sourceAttribute": "account_number",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "path",
+      "isMultiValue": false,
+      "isCalculated": false
+    }
+  ],
+  "actions": [
+    {
+      "actionId": "delete",
+      "value": "delete"
+    },
+    {
+      "actionId": "edit",
+      "value": "edit"
+    },
+    {
+      "actionId": "test",
+      "value": "test"
+    },
+    {
+      "actionId": "test1602",
+      "value": "test1602"
+    },
+    {
+      "actionId": "view",
+      "value": "view"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "templateId": "ExternalUsers",
+  "attributes": [
+    {
+      "attributeId": "uid",
+      "displayName": "User ID",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "DEPT",
+      "displayName": "DEPT",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "LOCATION",
+      "displayName": "LOCATION",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "ROLE",
+      "displayName": "ROLE",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "UserName",
+      "displayName": "UserName",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": false,
+      "isUsedInAccessRequest": true
+    }
+  ]
+}

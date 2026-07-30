@@ -1,0 +1,10 @@
+{
+  "data": {
+    "applicationId": "CMV-app",
+    "displayName": "CMV app",
+    "colorIndication": "#FF5BC4",
+    "assetTemplateIds": [
+      "LOCATION"
+    ]
+  }
+}

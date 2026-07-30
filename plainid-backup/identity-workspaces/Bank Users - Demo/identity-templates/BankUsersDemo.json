@@ -1,0 +1,37 @@
+{
+  "templateId": "BankUsersDemo",
+  "attributes": [
+    {
+      "attributeId": "uid",
+      "displayName": "User ID",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "first_name",
+      "displayName": "First Name",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "last_name",
+      "displayName": "Last Name",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "role",
+      "displayName": "Role",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    }
+  ]
+}

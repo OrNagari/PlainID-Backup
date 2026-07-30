@@ -1,0 +1,109 @@
+{
+  "templateId": "InternalUsers",
+  "attributes": [
+    {
+      "attributeId": "uid",
+      "displayName": "User ID",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "AD_User_ID",
+      "displayName": "AD_User_ID",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "Region",
+      "displayName": "Region",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "Residency",
+      "displayName": "Residency",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": false,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "T1",
+      "displayName": "T1",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": false,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "User_IDs",
+      "displayName": "User_IDs",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "department",
+      "displayName": "department",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "hire_date",
+      "displayName": "hire_date",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "lower_uid",
+      "displayName": "lower_uid",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "personal_id",
+      "displayName": "personal_id",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "role",
+      "displayName": "role",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "salary",
+      "displayName": "salary",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "status",
+      "displayName": "status",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    }
+  ]
+}

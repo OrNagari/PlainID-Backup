@@ -1,0 +1,23 @@
+{
+  "templateId": "IP Based Authorization",
+  "displayName": "IP Based Authorization",
+  "description": "IP Based Authorization",
+  "source": "REQUEST",
+  "isUsedForFiltering": true,
+  "attributes": [
+    {
+      "attributeId": "path",
+      "displayName": "Asset ID",
+      "type": "STRING",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "path",
+      "isCalculated": false
+    }
+  ],
+  "actions": [
+    {
+      "actionId": "Grant",
+      "value": "grant"
+    }
+  ]
+}

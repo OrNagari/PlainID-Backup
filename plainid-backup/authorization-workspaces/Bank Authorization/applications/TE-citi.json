@@ -1,0 +1,10 @@
+{
+  "data": {
+    "applicationId": "TE-citi",
+    "displayName": "TE citi",
+    "colorIndication": "#CFBB42",
+    "assetTemplateIds": [
+      "TE-Res"
+    ]
+  }
+}

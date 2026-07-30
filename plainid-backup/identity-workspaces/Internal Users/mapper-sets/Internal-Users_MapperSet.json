@@ -1,0 +1,137 @@
+{
+  "mapperSetId": "Internal-Users_MapperSet",
+  "displayName": "Internal Users_MapperSet",
+  "linkedSources": [
+    {
+      "sourceId": "user_bank_details",
+      "sourceUsedAs": "AUX",
+      "additionalProps": {
+        "cacheDuration": 0
+      },
+      "mappers": [
+        {
+          "type": "IDENTITY_ATTRIBUTES",
+          "mappings": [
+            {
+              "origin": "department",
+              "target": "department"
+            },
+            {
+              "origin": "hire_date",
+              "target": "hire_date"
+            },
+            {
+              "origin": "salary",
+              "target": "salary"
+            },
+            {
+              "origin": "status",
+              "target": "status"
+            }
+          ]
+        },
+        {
+          "type": "CORRELATION",
+          "mappings": [
+            {
+              "origin": "personal_id",
+              "target": "personal_id",
+              "operator": "EQUALS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceId": "sAMAccount",
+      "sourceUsedAs": "AUX",
+      "additionalProps": {
+        "cacheDuration": 0
+      },
+      "mappers": [
+        {
+          "type": "IDENTITY_ATTRIBUTES",
+          "mappings": [
+            {
+              "origin": "residency",
+              "target": "Residency"
+            },
+            {
+              "origin": "samaccountname",
+              "target": "AD_User_ID"
+            }
+          ]
+        },
+        {
+          "type": "CORRELATION",
+          "mappings": [
+            {
+              "origin": "lower_uid",
+              "target": "samaccountname",
+              "operator": "EQUALS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceId": "Lower_user_id",
+      "sourceUsedAs": "AUX",
+      "additionalProps": {
+        "cacheDuration": 0
+      },
+      "mappers": [
+        {
+          "type": "IDENTITY_ATTRIBUTES",
+          "mappings": [
+            {
+              "origin": "lower_user_id",
+              "target": "lower_uid"
+            }
+          ]
+        },
+        {
+          "type": "CORRELATION",
+          "mappings": [
+            {
+              "origin": "User_IDs",
+              "target": "user_id",
+              "operator": "EQUALS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceId": "c56b6905-579b-4ee3-81ca-6bd3ebf4e1f1",
+      "sourceUsedAs": "MAIN",
+      "additionalProps": {
+        "isValidateUser": false,
+        "cacheDuration": 0
+      },
+      "mappers": [
+        {
+          "type": "IDENTITY_ATTRIBUTES",
+          "mappings": [
+            {
+              "origin": "personal_id",
+              "target": "personal_id"
+            },
+            {
+              "origin": "region",
+              "target": "Region"
+            },
+            {
+              "origin": "role",
+              "target": "role"
+            },
+            {
+              "origin": "user_id",
+              "target": "uid"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

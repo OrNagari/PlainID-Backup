@@ -1,0 +1,10 @@
+{
+  "data": {
+    "applicationId": "test",
+    "displayName": "test",
+    "colorIndication": "#0086C0",
+    "assetTemplateIds": [
+      "test_virtual"
+    ]
+  }
+}

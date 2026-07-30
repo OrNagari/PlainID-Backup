@@ -1,0 +1,57 @@
+{
+  "templateId": "Test-citi",
+  "displayName": "Test-citi",
+  "source": "EXTERNAL",
+  "isAttributeSentInRequest": false,
+  "isUsedForFiltering": false,
+  "paaGroupId": "or-paa_Global",
+  "viewName": "test_json_view3",
+  "attributes": [
+    {
+      "attributeId": "att1",
+      "displayName": "att1",
+      "type": "STRING",
+      "sourceAttribute": "managed_segment",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "att1",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "att2",
+      "displayName": "att2",
+      "type": "STRING",
+      "sourceAttribute": "legal_entity",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "att2",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "att3",
+      "displayName": "att3",
+      "type": "STRING",
+      "sourceAttribute": "data_classification",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "att3",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "path",
+      "displayName": "Asset ID",
+      "type": "NUMERIC",
+      "sourceAttribute": "id",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "path",
+      "isMultiValue": false,
+      "isCalculated": false
+    }
+  ],
+  "actions": [
+    {
+      "actionId": "Access",
+      "value": "Access"
+    }
+  ]
+}

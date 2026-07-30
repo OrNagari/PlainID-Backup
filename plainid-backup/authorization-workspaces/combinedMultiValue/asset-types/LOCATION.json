@@ -1,0 +1,57 @@
+{
+  "templateId": "LOCATION",
+  "displayName": "LOCATION",
+  "source": "EXTERNAL",
+  "isAttributeSentInRequest": false,
+  "isUsedForFiltering": false,
+  "paaGroupId": "or-paa_Global",
+  "viewName": "assetdata1605",
+  "attributes": [
+    {
+      "attributeId": "AssetName",
+      "displayName": "AssetName",
+      "type": "STRING",
+      "sourceAttribute": "assetname",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "AssetName",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "DEPT",
+      "displayName": "DEPT",
+      "type": "STRING",
+      "sourceAttribute": "dept",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "DEPT",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "LOCATION",
+      "displayName": "LOCATION",
+      "type": "STRING",
+      "sourceAttribute": "location",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "LOCATION",
+      "isMultiValue": false,
+      "isCalculated": false
+    },
+    {
+      "attributeId": "path",
+      "displayName": "Asset ID",
+      "type": "NUMERIC",
+      "sourceAttribute": "assetid",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "path",
+      "isMultiValue": false,
+      "isCalculated": false
+    }
+  ],
+  "actions": [
+    {
+      "actionId": "create",
+      "value": "create"
+    }
+  ]
+}

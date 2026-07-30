@@ -1,0 +1,30 @@
+{
+  "templateId": "Internal_IP Based Authorization",
+  "displayName": "Internal_IP Based Authorization",
+  "description": "IP Based Authorization",
+  "source": "PLAINID",
+  "isAttributeSentInRequest": false,
+  "isUsedForFiltering": true,
+  "attributes": [
+    {
+      "attributeId": "path",
+      "displayName": "Asset ID",
+      "type": "STRING",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "path",
+      "isMultiValue": false,
+      "defaultValue": [
+        "val"
+      ],
+      "maxLength": 9999,
+      "isRequired": true,
+      "canBeUpdated": "ALWAYS"
+    }
+  ],
+  "actions": [
+    {
+      "actionId": "Grant",
+      "value": "grant"
+    }
+  ]
+}

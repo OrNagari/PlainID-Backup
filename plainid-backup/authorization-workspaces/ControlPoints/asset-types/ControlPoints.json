@@ -1,0 +1,27 @@
+{
+  "templateId": "ControlPoints",
+  "displayName": "ControlPoints",
+  "source": "EXTERNAL",
+  "isAttributeSentInRequest": true,
+  "isUsedForFiltering": false,
+  "paaGroupId": "or-paa_Global",
+  "viewName": "vw_permission_keys_detailed",
+  "attributes": [
+    {
+      "attributeId": "path",
+      "displayName": "Asset ID",
+      "type": "STRING",
+      "sourceAttribute": "FullKey",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "path",
+      "isMultiValue": false,
+      "isCalculated": false
+    }
+  ],
+  "actions": [
+    {
+      "actionId": "Access",
+      "value": "Access"
+    }
+  ]
+}

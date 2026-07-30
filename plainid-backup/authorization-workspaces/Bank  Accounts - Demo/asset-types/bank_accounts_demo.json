@@ -1,0 +1,42 @@
+{
+  "templateId": "bank_accounts_demo",
+  "displayName": "Bank Accounts - Demo",
+  "source": "REQUEST",
+  "isUsedForFiltering": false,
+  "attributes": [
+    {
+      "attributeId": "account_type",
+      "displayName": "Account Type",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "Account Type",
+      "isCalculated": false
+    },
+    {
+      "attributeId": "balance",
+      "displayName": "Balance",
+      "type": "NUMERIC",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "Balance",
+      "isCalculated": false
+    },
+    {
+      "attributeId": "path",
+      "displayName": "Asset ID",
+      "type": "STRING",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "path",
+      "isCalculated": false
+    }
+  ],
+  "actions": [
+    {
+      "actionId": "Update",
+      "value": "Update"
+    },
+    {
+      "actionId": "View",
+      "value": "View"
+    }
+  ]
+}

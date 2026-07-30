@@ -1,0 +1,10 @@
+{
+  "data": {
+    "applicationId": "ControlPoints_App",
+    "displayName": "ControlPoints App",
+    "colorIndication": "#5E62E2",
+    "assetTemplateIds": [
+      "ControlPoints"
+    ]
+  }
+}

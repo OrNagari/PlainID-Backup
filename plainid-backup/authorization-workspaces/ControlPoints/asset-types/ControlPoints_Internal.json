@@ -1,0 +1,29 @@
+{
+  "templateId": "ControlPoints_Internal",
+  "displayName": "ControlPoints_Internal",
+  "source": "PLAINID",
+  "isAttributeSentInRequest": false,
+  "isUsedForFiltering": false,
+  "attributes": [
+    {
+      "attributeId": "path",
+      "displayName": "Asset ID",
+      "type": "STRING",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "path",
+      "isMultiValue": false,
+      "defaultValue": [
+        "val"
+      ],
+      "maxLength": 9999,
+      "isRequired": true,
+      "canBeUpdated": "ALWAYS"
+    }
+  ],
+  "actions": [
+    {
+      "actionId": "Access",
+      "value": "Access"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "templateId": "TE-Res",
+  "displayName": "TE Res",
+  "source": "REQUEST",
+  "isUsedForFiltering": true,
+  "attributes": [
+    {
+      "attributeId": "LDAP-Group",
+      "displayName": "LDAP Group",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "LDAP Group",
+      "isCalculated": false
+    },
+    {
+      "attributeId": "User",
+      "displayName": "User",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "User",
+      "isCalculated": false
+    },
+    {
+      "attributeId": "path",
+      "displayName": "Asset ID",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "path",
+      "isCalculated": false
+    }
+  ],
+  "actions": [
+    {
+      "actionId": "Access",
+      "value": "Access"
+    }
+  ]
+}

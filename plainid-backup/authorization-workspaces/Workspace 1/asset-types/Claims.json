@@ -1,0 +1,52 @@
+{
+  "templateId": "Claims",
+  "displayName": "Claims",
+  "description": "Default Claims Type - can be used for attribute mapping or part of a policy",
+  "source": "PLAINID",
+  "isAttributeSentInRequest": true,
+  "isUsedForFiltering": false,
+  "attributes": [
+    {
+      "attributeId": "claimKey",
+      "displayName": "claimKey",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "claimKey",
+      "isMultiValue": false,
+      "maxLength": 9999,
+      "isRequired": false,
+      "canBeUpdated": "ALWAYS"
+    },
+    {
+      "attributeId": "claimValue",
+      "displayName": "claimValue",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "claimValue",
+      "isMultiValue": false,
+      "maxLength": 9999,
+      "isRequired": false,
+      "canBeUpdated": "ALWAYS"
+    },
+    {
+      "attributeId": "path",
+      "displayName": "Asset ID",
+      "type": "STRING",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "path",
+      "isMultiValue": false,
+      "defaultValue": [
+        "val"
+      ],
+      "maxLength": 9999,
+      "isRequired": true,
+      "canBeUpdated": "ALWAYS"
+    }
+  ],
+  "actions": [
+    {
+      "actionId": "Access",
+      "value": "Access"
+    }
+  ]
+}

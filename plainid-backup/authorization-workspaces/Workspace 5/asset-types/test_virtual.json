@@ -1,0 +1,25 @@
+{
+  "templateId": "test_virtual",
+  "displayName": "test_virtual",
+  "source": "REQUEST",
+  "isUsedForFiltering": false,
+  "attributes": [
+    {
+      "attributeId": "path",
+      "displayName": "Asset ID",
+      "type": "STRING",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "path",
+      "isCalculated": false
+    },
+    {
+      "attributeId": "test_or",
+      "displayName": "test_or",
+      "type": "STRING",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "test_or",
+      "isCalculated": false
+    }
+  ],
+  "actions": []
+}

@@ -1,0 +1,13 @@
+{
+  "templateId": "newworkspace",
+  "attributes": [
+    {
+      "attributeId": "uid",
+      "displayName": "User ID",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    }
+  ]
+}

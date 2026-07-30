@@ -1,0 +1,45 @@
+{
+  "templateId": "IP_Based_Authorization",
+  "attributes": [
+    {
+      "attributeId": "uid",
+      "displayName": "User ID",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "ENTITY",
+      "displayName": "ENTITY",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "MORNETPLUSID",
+      "displayName": "MORNETPLUSID",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "REQUESTTYPE",
+      "displayName": "REQUESTTYPE",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    },
+    {
+      "attributeId": "USERTYPE",
+      "displayName": "USERTYPE",
+      "description": "",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "isUsedInAccessRequest": true
+    }
+  ]
+}

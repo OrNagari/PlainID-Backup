@@ -1,0 +1,10 @@
+{
+  "data": {
+    "applicationId": "IP-Based-Authorization",
+    "displayName": "IP-Based-Authorization",
+    "colorIndication": "#B92B1A",
+    "assetTemplateIds": [
+      "IP Based Authorization"
+    ]
+  }
+}

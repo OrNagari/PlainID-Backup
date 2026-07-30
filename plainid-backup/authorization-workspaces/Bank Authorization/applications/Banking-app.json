@@ -1,0 +1,10 @@
+{
+  "data": {
+    "applicationId": "Banking-app",
+    "displayName": "Banking app",
+    "colorIndication": "#6BA5C1",
+    "assetTemplateIds": [
+      "Bank_Accounts"
+    ]
+  }
+}

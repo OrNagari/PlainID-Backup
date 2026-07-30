@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {
+      "sourceId": "vw_user_rdn_groups",
+      "displayName": "vw_user_rdn_groups",
+      "sourceType": "EXTERNAL_INPUT",
+      "sourceMetaData": {
+        "paaGroupId": "or-paa_Global",
+        "viewName": "vw_user_rdn_groups"
+      }
+    }
+  ]
+}

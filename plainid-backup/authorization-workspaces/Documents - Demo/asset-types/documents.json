@@ -1,0 +1,30 @@
+{
+  "templateId": "documents",
+  "displayName": "Documents",
+  "source": "REQUEST",
+  "isUsedForFiltering": false,
+  "attributes": [
+    {
+      "attributeId": "path",
+      "displayName": "Asset ID",
+      "type": "STRING",
+      "isAvailableForPolicies": false,
+      "nameForRequest": "path",
+      "isCalculated": false
+    },
+    {
+      "attributeId": "title",
+      "displayName": "Title",
+      "type": "STRING",
+      "isAvailableForPolicies": true,
+      "nameForRequest": "Title",
+      "isCalculated": false
+    }
+  ],
+  "actions": [
+    {
+      "actionId": "Edit",
+      "value": "Edit"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {
+      "sourceId": "Identity-Data",
+      "displayName": "Identity Data",
+      "sourceType": "EXTERNAL_INPUT",
+      "sourceMetaData": {
+        "paaGroupId": "or-paa_Global",
+        "viewName": "identitydata1605"
+      }
+    }
+  ]
+}
