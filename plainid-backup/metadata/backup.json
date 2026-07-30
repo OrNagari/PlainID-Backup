@@ -30,5 +30,7 @@
     "applications": 11,
     "policies": 14
   },
-  "backupStatus": "completed"
+  "backupStatus": "completed",
+  "gitCommitId": "7b7375b53bd2c7b773d761b519f38625016512ec",
+  "gitBranch": "main"
 }
