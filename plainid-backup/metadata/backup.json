@@ -31,5 +31,7 @@
     "policies": 20,
     "custom-policy-attributes": 3
   },
-  "backupStatus": "completed"
+  "backupStatus": "completed",
+  "gitCommitId": "8c6e3899d50a85b5c397a8c11456eb014cbe3c7d",
+  "gitBranch": "main"
 }
