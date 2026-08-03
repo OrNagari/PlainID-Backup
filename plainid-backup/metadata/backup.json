@@ -1,5 +1,5 @@
 {
-  "backupDateTime": "2026-07-30T19:23:55.228479+00:00",
+  "backupDateTime": "2026-08-03T11:34:59.173955+00:00",
   "sourceEnvironmentId": "d472c63d-9ab4-44a5-8f57-250f6e016384",
   "sourceEnvironmentName": "d472c63d-9ab4-44a5-8f57-250f6e016384",
   "selectedIdentityWorkspaces": [
@@ -28,9 +28,8 @@
     "mapper-sets": 9,
     "asset-types": 13,
     "applications": 11,
-    "policies": 14
+    "policies": 20,
+    "custom-policy-attributes": 3
   },
-  "backupStatus": "completed",
-  "gitCommitId": "7b7375b53bd2c7b773d761b519f38625016512ec",
-  "gitBranch": "main"
+  "backupStatus": "completed"
 }

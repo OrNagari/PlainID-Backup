@@ -8,6 +8,7 @@
 #     policyUse: DYNAMIC_AUTHORIZATION_SERVICE
 #     sourceEnvironmentId: d472c63d-9ab4-44a5-8f57-250f6e016384
 #     applications: 
+#       - id: Banking-app
 #       - id: TE-citi
 #     customAttributes:
 #       regulatoryTags: ["ISO-27001","ISO-27701","SOC2","NIST-SP-800-53","SOX"]

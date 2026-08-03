@@ -8,6 +8,7 @@
 #     policyUse: DYNAMIC_AUTHORIZATION_SERVICE
 #     sourceEnvironmentId: d472c63d-9ab4-44a5-8f57-250f6e016384
 #     applications: 
+#       - id: or
 #       - id: test
 #       - id: Test-App
 package policy

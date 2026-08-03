@@ -10,6 +10,7 @@
 #     applications: 
 #       - id: IP-Based-Authorization
 #     customAttributes:
+#       regulatoryTags: ["GDPR-PII","ISO-27001","ISO-27701"]
 #       OP-gid: "3414a39a-c619-43a6-bee2-399bf9165aca"
 package policy
 import rego.v1

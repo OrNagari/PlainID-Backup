@@ -1,0 +1,99 @@
+[
+  {
+    "key": "OP-gid",
+    "name": "OP-gid",
+    "displayOrder": 3,
+    "type": "string",
+    "required": false,
+    "maxLength": 64,
+    "availableForPDP": false,
+    "onlyOnCreate": false,
+    "multiValue": false,
+    "listAttribute": false,
+    "propagationMode": "GLOBAL",
+    "managementLevel": "FULL",
+    "calculated": true,
+    "presetSource": "USER"
+  },
+  {
+    "key": "policyScore",
+    "name": "Policy Score",
+    "displayOrder": 2,
+    "type": "number",
+    "required": false,
+    "maxValue": 100,
+    "availableForPDP": true,
+    "onlyOnCreate": false,
+    "multiValue": false,
+    "listAttribute": false,
+    "propagationMode": "GLOBAL",
+    "managementLevel": "LIMITED",
+    "calculated": true,
+    "outputShape": "NUMBER",
+    "presetSource": "PLAINID",
+    "fieldStyle": "SCALE"
+  },
+  {
+    "key": "regulatoryTags",
+    "name": "Regulatory Tags",
+    "displayOrder": 1,
+    "type": "string",
+    "optionsConfig": {
+      "options": [
+        {
+          "key": "ISO-42001-AI",
+          "name": "ISO-42001-AI"
+        },
+        {
+          "key": "NIST-AI-RMF",
+          "name": "NIST-AI-RMF"
+        },
+        {
+          "key": "GDPR-PII",
+          "name": "GDPR-PII"
+        },
+        {
+          "key": "HIPAA-PHI",
+          "name": "HIPAA-PHI"
+        },
+        {
+          "key": "ISO-27001",
+          "name": "ISO-27001"
+        },
+        {
+          "key": "ISO-27701",
+          "name": "ISO-27701"
+        },
+        {
+          "key": "SOC2",
+          "name": "SOC2"
+        },
+        {
+          "key": "NIST-SP-800-53",
+          "name": "NIST-SP-800-53"
+        },
+        {
+          "key": "PCI-DSS",
+          "name": "PCI-DSS"
+        },
+        {
+          "key": "SOX",
+          "name": "SOX"
+        }
+      ]
+    },
+    "required": false,
+    "maxLength": 128,
+    "availableForPDP": true,
+    "onlyOnCreate": false,
+    "multiValue": true,
+    "listAttribute": true,
+    "propagationMode": "GLOBAL",
+    "managementLevel": "LIMITED",
+    "calculated": false,
+    "generatorId": "regulatoryTags",
+    "outputShape": "TAG_LIST_WITH_REASON",
+    "presetSource": "PLAINID",
+    "fieldStyle": "TAGS"
+  }
+]
